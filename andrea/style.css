@@ -28,11 +28,12 @@ tr:nth-child(odd) :not(th) {
     background-color: #efefef;
 }
 
-tr:nth-child(4) td:nth-child(2) {
-    background: #ffbbbb;
-}
-
+tr:nth-child(4) td:nth-child(2),
 tr:nth-child(7) td:nth-child(2) {
-    background: #ffbbbb;
-}
+    background-color: #ffbbbb;
+} 
+
+/* tr:nth-child(7) td:nth-child(2) {
+    background-color: #ffbbbb;
+} */
 
