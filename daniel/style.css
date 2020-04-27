@@ -11,16 +11,18 @@ table {
 
 td {
     padding: 10px;
+    background-color: #efefef;
 }
 
-td:not(:first-child) {
-    border-left: 5px solid #c0c0c0;
+thead th {
+    padding: 10px;
+    background-color: #888888;
 }
 
-tr:nth-child(odd) td:first-child {
-    border-left: 5px solid #cc181b;
+tr:nth-child(odd) td {
+    background-color: #c0c0c0;
 }
 
-tr:nth-child(even) td:first-child {
-    border-left: 5px solid #449d45;
+tr:nth-child(odd):not(:first-child) td:nth-child(2) {
+    background-color: #ffbbbb;
 }
