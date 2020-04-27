@@ -13,7 +13,6 @@ th {
     padding: 10px 15px;
 }
 
-
 tr:first-child {
     background-color: #888888;
     color: White;
@@ -32,8 +31,3 @@ tr:nth-child(4) td:nth-child(2),
 tr:nth-child(7) td:nth-child(2) {
     background-color: #ffbbbb;
 } 
-
-/* tr:nth-child(7) td:nth-child(2) {
-    background-color: #ffbbbb;
-} */
-
