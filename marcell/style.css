@@ -1,0 +1,23 @@
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+th {
+    color: white;
+    background-color: #888888;
+}
+
+tr {
+    background-color: #efefef;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(6) td:nth-child(2) {
+    background-color: #ffbbbb;
+}
