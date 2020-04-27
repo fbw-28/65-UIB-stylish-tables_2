@@ -1,0 +1,29 @@
+table {
+    margin: 10% auto;
+    font-size: 18px;
+}
+
+th,
+td,
+tr {
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background-color: #888888;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
+tr:nth-child(even) {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(4) td:nth-child(2),
+tr:nth-child(7) td:nth-child(2) {
+    background-color: #ffbbbb;
+}
