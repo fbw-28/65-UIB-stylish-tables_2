@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 20% auto;
+}
+
+td, 
+th {
+    padding: 10px 15px;
+}
+
+tr:first-child {
+    background-color: #888888;
+    color: White;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(odd) :not(th) {
+    background-color: #efefef;
+}
+
+tr:nth-child(4) td:nth-child(2),
+tr:nth-child(7) td:nth-child(2) {
+    background-color: #ffbbbb;
+} 
