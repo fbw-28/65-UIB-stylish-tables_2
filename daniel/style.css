@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    min-width: 20%;
+    margin: 20% auto;
+}
+
+td {
+    padding: 10px;
+    background-color: #efefef;
+}
+
+thead th {
+    padding: 10px;
+    background-color: #888888;
+}
+
+tr:nth-child(odd) td {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(odd):not(:first-child) td:nth-child(2) {
+    background-color: #ffbbbb;
+}
