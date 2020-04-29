@@ -1,0 +1,23 @@
+table{
+    margin: 3% 3%;
+} 
+
+th{
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #888888;
+}
+
+td {
+    padding: 7px;
+    background-color: #efefef;
+}
+
+tr:nth-child(even) td {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(4) td:nth-child(2),
+tr:nth-child(7) td:nth-child(2) {
+    background-color: #ffbbbb;
+}
