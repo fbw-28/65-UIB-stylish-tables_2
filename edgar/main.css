@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 40px auto;
+}
+
+th,td {
+    padding: 10px;
+}
+
+tr:first-child {
+    background: #888888;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #c0c0c0;
+}
+
+tr:not(:first-child) + tr:nth-child(odd){
+    background: #efefef;
+}
+
+tr:nth-child(4) td:nth-child(2), tr:nth-child(7) td:nth-child(2) {
+    background: #ffbbbb;
+}
